@@ -8,7 +8,7 @@ One of these two images carries a hidden, encrypted text file. Can you tell whic
 
 | `demo/original.png` | `demo/with_secret.png` |
 |:---:|:---:|
-| ![Original image](demo/original.png) | ![Image with a hidden file](demo/with_secret.png) |
+| <img src="demo/original.png" alt="Original image" width="400"> | <img src="demo/with_secret.png" alt="Image with a hidden file" width="400"> |
 
 The right one embeds [`demo/secret.txt`](demo/secret.txt), encrypted with a password, in the
 least significant bits of the pixels:
