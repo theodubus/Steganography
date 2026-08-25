@@ -6,9 +6,16 @@ Hide a file in an image using LSB steganography with optional encryption.
 
 One of these two images carries a hidden, encrypted text file. Can you tell which one?
 
-| `demo/original.png` | `demo/with_secret.png` |
-|:---:|:---:|
-| <img src="demo/original.png" alt="Original image" width="400"> | <img src="demo/with_secret.png" alt="Image with a hidden file" width="400"> |
+<table width="100%">
+<tr>
+<th width="50%" align="center"><code>demo/original.png</code></th>
+<th width="50%" align="center"><code>demo/with_secret.png</code></th>
+</tr>
+<tr>
+<td width="50%" align="center"><img src="demo/original.png" alt="Original image"></td>
+<td width="50%" align="center"><img src="demo/with_secret.png" alt="Image with a hidden file"></td>
+</tr>
+</table>
 
 The right one embeds [`demo/secret.txt`](demo/secret.txt), encrypted with a password, in the
 least significant bits of the pixels:
